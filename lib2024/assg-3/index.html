@@ -3,7 +3,6 @@
 <!-- this is the header -->
 	<head>
 		<meta charset="utf-8">
-		<meta description="form" content="email-form">
 		<meta name="author" content="Taeun-Citrine-Kim">
 		<style>
 			div {
@@ -15,9 +14,9 @@
 	<!-- this is end of header -->
 	<!-- this is the body -->
 	<body>
+		<section id="html-forms" class="main-section">
 			<h1>Behold, a Form</h1>
 			<form action="somepage.php" method="get">
-
 				<div id="fn-container" class="form-elm">
 					<label for="first-name">First name:</label>
 					<input type="text" name="first-name" id="first-name" placeholder="First name" required>
@@ -50,24 +49,24 @@
 
 				<div id="mobile-number-container" class="form-elm">
 					<label for="mobile-number">Mobile Number:</label>
-					<input id="mobile-number" type="tel">
+					<input type="number" id="mobile-number" name="mobile-number">
 				</div>
 
 				<fieldset style="margin-bottom: 10px;">
 					<legend>Gender:</legend>
 						<div id="gender-container" class="form-elm">
 							<label for="male">
-								<input type="radio" name="like-form" id="male" value="male">
+								<input type="radio" name="gender" id="male" value="male">
 							Male</label>
 							<label for="female">
-								<input type="radio" name="like-form" id="female" value="female">
+								<input type="radio" name="gender" id="female" value="female">
 							Female</label>
 							<label for="non-binary">
-								<input type="radio" name="like-form" id="non-binary" value="non-binary">
+								<input type="radio" name="gender" id="non-binary" value="non-binary">
 							Non-binary</label>
-							<label for="not-specifying">
-								<input type="radio" name="like-form" id="not-specifying" value="not-specifying">
-							Not specifying</label>
+							<label for="will-not-specify">
+								<input type="radio" name="gender" id="will-not-specify" value="will-not-specify">
+							Will Not Specify</label>
 						</div>
 				</fieldset>
 
@@ -143,9 +142,12 @@
 					<input type="url" name="ur" id="ur">
 				</div>
 
-				<div id="button-container" class="form-elm">
+				<div id="button-container" class="form-elm" style="margin-top: 30px;">
 					<button type="submit">Submit</button>
 					<button type="reset">Reset</button>
 				</div>
 			</form>
-		</body>
+		</section>
+	</body>
+	<!-- this is end of body -->
+</html>
