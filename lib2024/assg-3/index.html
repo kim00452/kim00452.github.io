@@ -1,34 +1,40 @@
 <!DOCTYPE html>
+<html lang="en-ca">
 <!-- this is the header -->
 	<head>
 		<meta charset="utf-8">
 		<meta description="form" content="email-form">
 		<meta name="author" content="Taeun-Citrine-Kim">
+		<style>
+			div {
+				margin-bottom: 5px;
+			}
+		</style>		
 		<title>This is a form</title>
 	</head>
 	<!-- this is end of header -->
 	<!-- this is the body -->
 	<body>
-			<h1>Behold, a form</h1>
+			<h1>Behold, a Form</h1>
 			<form action="somepage.php" method="get">
 
 				<div id="fn-container" class="form-elm">
-					<label for="first-name">First name</label>
+					<label for="first-name">First name:</label>
 					<input type="text" name="first-name" id="first-name" placeholder="First name" required>
 				</div>
 
 				<div id="ln-container" class="form-elm">
-					<label for="last-name">Last name</label>
+					<label for="last-name">Last name:</label>
 					<input type="text" name="last-name" id="last-name" placeholder="Last name" required>
 				</div>
 
 				<div id="email-container" class="form-elm">
-					<label for="email">Email ID</label>
-					<input type="email" name="email" id="email" placeholder="abcd0123@algonquinlive.com" required>
+					<label for="email">Email ID:</label>
+					<input type="email" name="email" id="email" placeholder="abcd@algonquinlive.com" required>
 				</div>
 
 				<div id="pass-container" class="form-elm">
-					<label for="pass">Password</label>
+					<label for="pass">Password:</label>
 					<input type="password" name="pass" id="pass" placeholder="password" required>
 				</div>
 
@@ -37,17 +43,107 @@
 					<textarea name="summary" id="summary" cols="63" rows="5" placeholder="type your introduction here"></textarea>
 				</div>
 
-				<div>
-					<label for="birthday">Date of Birth</label>
-					<input type="date" name="birthday" id="birthday">
+				<div id="birthday-container" class="form-elm">
+					<label for="birthday">Date of Birth:</label>
+					<input type="date" name="birthday" id="birthday" required>
 				</div>
 
-				<div>
-					<label for="mobile-number">Mobile Number</label>
+				<div id="mobile-number-container" class="form-elm">
+					<label for="mobile-number">Mobile Number:</label>
 					<input id="mobile-number" type="tel">
 				</div>
 
-				<div>
+				<fieldset style="margin-bottom: 10px;">
+					<legend>Gender:</legend>
+						<div id="gender-container" class="form-elm">
+							<label for="male">
+								<input type="radio" name="like-form" id="male" value="male">
+							Male</label>
+							<label for="female">
+								<input type="radio" name="like-form" id="female" value="female">
+							Female</label>
+							<label for="non-binary">
+								<input type="radio" name="like-form" id="non-binary" value="non-binary">
+							Non-binary</label>
+							<label for="not-specifying">
+								<input type="radio" name="like-form" id="not-specifying" value="not-specifying">
+							Not specifying</label>
+						</div>
+				</fieldset>
+
+				<div id="address-container" class="form-elm">
+					<label for="address">Address:</label>
+					<input type="text" name="address" id="address" placeholder="123 St">
+				</div>
+
+				<div id="city-container" class="form-elm">
+					<label for="city">City:</label>
+					<input type="text" name="city" id="city" placeholder="Name of city">
+				</div>
+
+				<div id="province-container" class="form-elm">
+					<label for="province">Province:</label>
+					<select name="province" id="province">
+						<option value="alberta">Alberta</option>
+						<option value="british-columbia">British Columbia</option>
+						<option value="manitoba">Manitoba</option>
+						<option value="new-brunswick">New Brunswick</option>
+						<option value="newfoundland-and-labrador">Newfoundland and Labrador</option>
+						<option value="northwest-territories">Northwest Territories</option>
+						<option value="nova-scotia">Nova Scotia</option>
+						<option value="nunavut">Nunavut</option>
+						<option value="ontario">Ontario</option>
+						<option value="prince-edward-island">Prince Edward Island</option>
+						<option value="quebec">Quebec</option>
+						<option value="saskatchewan">Saskatchewan</option>
+						<option value="yukon">Yukon</option>
+					</select>
+				</div>
+
+				<div id="country-container" class="form-elm">
+					<label for="country">Country:</label>
+					<select name="country" id="country">
+						<option value="canada">Canada</option>
+						<option value="south-korea">South Korea</option>
+						<option value="not-canada">Not Canada</option>
+						<option value="libraryland">Libraryland</option>
+					</select>
+				</div>
+			
+				<div id="postal-code-container" class="form-elm">
+					<label for="postal-code">Postal Code:</label>
+					<input type="text" name="postal-code" id="postal-code" placeholder="A1B 2C3">
+				</div>
+
+				<div id=hobbies-container class="form-elm">
+					<h3>Hobbies and Interests</h3>
+					<label for="reading">
+						<input type="checkbox" name="hobby" id="reading" value="reading">
+						Reading
+					</label>
+					<br>
+					<label for="writing">
+						<input type="checkbox" name="hobby" id="writing" value="writing">
+						Writing
+					</label>
+					<br>
+					<label for="eating">
+						<input type="checkbox" name="hobby" id="eating" value="eating">
+						Eating
+					</label>
+					<br>
+					<label for="sleeping">
+						<input type="checkbox" name="hobby" id="sleeping" value="sleeping">
+						Sleeping
+					</label>
+				</div>
+
+				<div id="website-container" class="form-elm">
+					<label for="ur">Website:</label>
+					<input type="url" name="ur" id="ur">
+				</div>
+
+				<div id="button-container" class="form-elm">
 					<button type="submit">Submit</button>
 					<button type="reset">Reset</button>
 				</div>
