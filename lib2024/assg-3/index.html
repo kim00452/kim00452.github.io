@@ -37,7 +37,7 @@
 					<input type="password" name="pass" id="pass" placeholder="password" required>
 				</div>
 
-				<div id="intro-container" class="form-elm">
+				<div id="intro-container" class="form-elm" style="margin: 10px;">
 					<label for="summary">Introductory text:</label><br>
 					<textarea name="summary" id="summary" cols="63" rows="5" placeholder="type your introduction here"></textarea>
 				</div>
@@ -70,49 +70,52 @@
 						</div>
 				</fieldset>
 
-				<div id="address-container" class="form-elm">
-					<label for="address">Address:</label>
-					<input type="text" name="address" id="address" placeholder="123 St">
-				</div>
+				<fieldset style="margin-bottom: 10px;">
+					<legend>Where do you live?</legend>
+						<div id="address-container" class="form-elm">
+							<label for="address">Address:</label>
+							<input type="text" name="address" id="address" placeholder="123 St">
+						</div>
 
-				<div id="city-container" class="form-elm">
-					<label for="city">City:</label>
-					<input type="text" name="city" id="city" placeholder="Name of city">
-				</div>
+						<div id="city-container" class="form-elm">
+							<label for="city">City:</label>
+							<input type="text" name="city" id="city" placeholder="Name of city">
+						</div>
 
-				<div id="province-container" class="form-elm">
-					<label for="province">Province:</label>
-					<select name="province" id="province">
-						<option value="alberta">Alberta</option>
-						<option value="british-columbia">British Columbia</option>
-						<option value="manitoba">Manitoba</option>
-						<option value="new-brunswick">New Brunswick</option>
-						<option value="newfoundland-and-labrador">Newfoundland and Labrador</option>
-						<option value="northwest-territories">Northwest Territories</option>
-						<option value="nova-scotia">Nova Scotia</option>
-						<option value="nunavut">Nunavut</option>
-						<option value="ontario">Ontario</option>
-						<option value="prince-edward-island">Prince Edward Island</option>
-						<option value="quebec">Quebec</option>
-						<option value="saskatchewan">Saskatchewan</option>
-						<option value="yukon">Yukon</option>
-					</select>
-				</div>
+						<div id="province-container" class="form-elm">
+							<label for="province">Province:</label>
+							<select name="province" id="province">
+								<option value="alberta">Alberta</option>
+								<option value="british-columbia">British Columbia</option>
+								<option value="manitoba">Manitoba</option>
+								<option value="new-brunswick">New Brunswick</option>
+								<option value="newfoundland-and-labrador">Newfoundland and Labrador</option>
+								<option value="northwest-territories">Northwest Territories</option>
+								<option value="nova-scotia">Nova Scotia</option>
+								<option value="nunavut">Nunavut</option>
+								<option value="ontario">Ontario</option>
+								<option value="prince-edward-island">Prince Edward Island</option>
+								<option value="quebec">Quebec</option>
+								<option value="saskatchewan">Saskatchewan</option>
+								<option value="yukon">Yukon</option>
+							</select>
+						</div>
 
-				<div id="country-container" class="form-elm">
-					<label for="country">Country:</label>
-					<select name="country" id="country">
-						<option value="canada">Canada</option>
-						<option value="south-korea">South Korea</option>
-						<option value="not-canada">Not Canada</option>
-						<option value="libraryland">Libraryland</option>
-					</select>
-				</div>
-			
-				<div id="postal-code-container" class="form-elm">
-					<label for="postal-code">Postal Code:</label>
-					<input type="text" name="postal-code" id="postal-code" placeholder="A1B 2C3">
-				</div>
+						<div id="country-container" class="form-elm">
+							<label for="country">Country:</label>
+							<select name="country" id="country">
+								<option value="canada">Canada</option>
+								<option value="south-korea">South Korea</option>
+								<option value="not-canada">Not Canada</option>
+								<option value="libraryland">Libraryland</option>
+							</select>
+						</div>
+					
+						<div id="postal-code-container" class="form-elm">
+							<label for="postal-code">Postal Code:</label>
+							<input type="text" name="postal-code" id="postal-code" placeholder="A1B 2C3">
+						</div>
+				</fieldset>
 
 				<div id=hobbies-container class="form-elm">
 					<h3>Hobbies and Interests</h3>
@@ -137,12 +140,12 @@
 					</label>
 				</div>
 
-				<div id="website-container" class="form-elm">
+				<div id="website-container" class="form-elm" style="margin-top: 15px;">
 					<label for="ur">Website:</label>
 					<input type="url" name="ur" id="ur">
 				</div>
 
-				<div id="button-container" class="form-elm" style="margin-top: 30px;">
+				<div id="button-container" class="form-elm" style="margin-top: 20px;">
 					<button type="submit">Submit</button>
 					<button type="reset">Reset</button>
 				</div>
