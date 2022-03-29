@@ -53,23 +53,49 @@ table {
 
 /*CSS clearfix*/
 
-.clearfix:after {
-	content: "";
-	display: table;
-	clear: both;
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 
 body {
-	background-image:  url("../images/background.png");
+	background-image: url("https://kim00452.github.io/lib2024/assg-4/img/background.png");
 }
 
-header nav li a {
-	color:  rbg(124, 197, 118);
+.site-header {
+	background: #7cc576;
+	height: 230px;
 }
 
-#container {
-	background-colour: rgba();
+.logo {
+	float: left;
+	box-sizing: border-box;
+	position: absolute;
 }
 
-.
+.page-title {
+	float: left;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+.navigation ul {
+	width:100%;
+}
+
+.navigation li {
+	box-sizing: border-box;
+	width: 25%;
+	padding: 10px;
+	float: left;
+	position: relative;
+}
+
+.navigation a {
+	display: block;
+	box-sizing: border-box;
+	padding: 10px;
+	background: #6dcff6;
+}
