@@ -165,6 +165,7 @@ body {
 #img2 {
 	margin-left: 70px;
 	margin-top: 40px;
+	position: relative;
 }
 
 .caption_2 {
