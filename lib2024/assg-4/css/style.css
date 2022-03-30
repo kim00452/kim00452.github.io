@@ -78,7 +78,7 @@ body {
 .page_title {
 	box-sizing: border-box;
 	padding: 50px;
-	font-size: 30px;
+	font-size: 40px;
 	position: relative;
 	margin-left: 100px;
 }
@@ -100,7 +100,7 @@ body {
 
 .main_title {
 	box-sizing: border-box;
-	font-size: 20px;
+	font-size: 25px;
 	position: relative;
 	margin-bottom: 20px;
 }
@@ -111,6 +111,7 @@ body {
 	width: 50%;
 	padding: 25px;
 	position: relative;
+	vertical-align: baseline;
 }
 
 .sidebar {
@@ -118,7 +119,15 @@ body {
 	position: relative;
 	display: inline-block;
 	box-sizing: border-box;
+	vertical-align: baseline;
 } 
+
+.sidebar_title {
+	box-sizing: border-box;
+	font-size: 20px;
+	position: relative;
+	margin-bottom: 20px;
+}
 
 .site-sidebar {
 	width: 30%;
@@ -130,12 +139,40 @@ body {
 	margin-right: 100px;
 }
 
+.secondary_title {
+	font-size: 20px;
+	box-sizing: border-box;
+}
+
 .images .img_slide {
-	background: blue;
 	width: 33%;
 	box-sizing: border-box;
 	float: left;
 	position: relative;
+	padding: 25px;
+}
+
+#img1 {
+	margin-left: 100px;
+	margin-top: 40px;
+	position: relative;
+}
+
+.caption_1 {
+	margin-left: 145px;
+}
+
+#img2 {
+	margin-left: 70px;
+	margin-top: 40px;
+}
+
+.caption_2 {
+	margin-left: 115px;
+}
+
+.caption_3 {
+	margin-left: 50px;
 }
 
 .social_media {
@@ -154,4 +191,3 @@ header, main, footer {
 		max-width: 1280px;
 		margin: 0 auto;
 }
-
