@@ -80,6 +80,7 @@ body {
 	padding: 50px;
 	font-size: 30px;
 	position: relative;
+	margin-left: 100px;
 }
 
 .navigation li {
@@ -97,21 +98,49 @@ body {
 	background: #6dcff6;
 }
 
+.main_title {
+	box-sizing: border-box;
+	font-size: 20px;
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+}
+
+.main {
+	width: 70%;
+	float: left;
+	margin-left: 125px;
+}
+
 .sidebar {
 	display: block;
 	position: relative;
-	float: right;
 	display: inline-block;
 	box-sizing: border-box;
 } 
 
+.site-sidebar {
+	width: 30%;
+	box-sizing: border-box;
+	max-width: 280px;
+	padding: 20px;
+	position: relative;
+	float: right;
+	margin-right: 100px;
+}
+
 .images .img_slide {
+	background: blue;
 	width: 33%;
 	padding: 10px;
 	box-sizing: border-box;
 	float: left;
 }
 
+.social_media {
+	float: right;
+}
 
 footer {
 	background: #7cc576;
