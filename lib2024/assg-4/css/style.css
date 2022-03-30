@@ -64,7 +64,7 @@ body {
 	background-image: url("https://kim00452.github.io/lib2024/assg-4/img/background.png");
 }
 
-.site-header {
+.site_header {
 	background: #7cc576;
 	height: 230px;
 }
@@ -75,11 +75,11 @@ body {
 	position: absolute;
 }
 
-.page-title {
+.page_title {
 	box-sizing: border-box;
-	padding: 20px;
+	padding: 50px;
 	font-size: 30px;
-	position: relative
+	position: relative;
 }
 
 .navigation li {
@@ -93,20 +93,25 @@ body {
 .navigation a {
 	display: block;
 	box-sizing: border-box;
-	padding: 10px;
+	padding: 25px;
 	background: #6dcff6;
 }
 
 .sidebar {
+	display: block;
 	position: relative;
 	float: right;
-	display: inline-block
+	display: inline-block;
 	box-sizing: border-box;
 } 
 
-.secondary-content {
+.images .img_slide {
+	width: 33%;
+	padding: 10px;
+	box-sizing: border-box;
 	float: left;
 }
+
 
 footer {
 	background: #7cc576;
