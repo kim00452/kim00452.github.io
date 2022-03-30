@@ -76,14 +76,10 @@ body {
 }
 
 .page-title {
-	float: left;
 	box-sizing: border-box;
 	padding: 20px;
 	font-size: 30px;
-}
-
-.navigation ul {
-	width:100%;
+	position: relative
 }
 
 .navigation li {
@@ -102,13 +98,14 @@ body {
 }
 
 .sidebar {
+	position: relative;
 	float: right;
+	display: inline-block
 	box-sizing: border-box;
 } 
 
 .secondary-content {
 	float: left;
-	margin: 40px;
 }
 
 footer {
