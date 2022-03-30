@@ -102,15 +102,15 @@ body {
 	box-sizing: border-box;
 	font-size: 20px;
 	position: relative;
-	margin-top: 20px;
 	margin-bottom: 20px;
-}
 }
 
 .main {
-	width: 70%;
 	float: left;
-	margin-left: 125px;
+	margin-left: 100px;
+	width: 50%;
+	padding: 25px;
+	position: relative;
 }
 
 .sidebar {
@@ -133,9 +133,9 @@ body {
 .images .img_slide {
 	background: blue;
 	width: 33%;
-	padding: 10px;
 	box-sizing: border-box;
 	float: left;
+	position: relative;
 }
 
 .social_media {
