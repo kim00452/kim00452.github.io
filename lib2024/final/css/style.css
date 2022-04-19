@@ -82,7 +82,6 @@ body {
 
 .page-title {
 	position: relative;
-
 }
 
 .main {
@@ -92,6 +91,7 @@ body {
 	padding: 25px;
 	position: relative;
 	vertical-align: baseline;
+	line-height: normal;
 }
 
 .card {
