@@ -110,10 +110,13 @@ body {
 footer {
 	background: #454545;
 	padding: 15px;
-	width: 100%;
 	box-sizing: border-box;
 }
 
+.social-media {
+	text-align: center;
+}
+
 .address {
-	float: right;
+	text-align: right;
 }
