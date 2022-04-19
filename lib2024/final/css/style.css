@@ -66,7 +66,6 @@ body {
 
 .site-header {
 	background: #72a9ae;
-	height: 40px;
 	margin-top: 100px;
 }
 
@@ -74,6 +73,11 @@ body {
 	width: 25%;
 	float: left;
 	position: relative;
+}
+
+.page-title {
+	position: relative;
+
 }
 
 .main {
