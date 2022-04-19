@@ -59,6 +59,41 @@ table {
 	clear: both;
 }
 
+.page-title {
+	padding: 30px;
+	position: fixed;
+}
+
 .site-header {
-	
+	background: #72a9ae;
+	height: 40px;
+}
+
+.navigation li {
+	width: 25%;
+	float: left;
+	position: relative;
+}
+
+.main {
+	float: left;
+	margin-left: 50px;
+	width: 60%;
+	padding: 25px;
+	position: relative;
+	vertical-align: baseline;
+}
+
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
 }
