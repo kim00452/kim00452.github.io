@@ -64,9 +64,6 @@ body {
 	background-image: url("https://kim00452.github.io/lib2024/final/img/dynamic-style.png");
 }
 
-.page-title {
-}
-
 .site-header {
 	background: #72a9ae;
 	height: 40px;
@@ -80,17 +77,12 @@ body {
 }
 
 .main {
-	float: left;
 	margin-left: 50px;
 	margin-top: 50px;
 	width: 60%;
 	padding: 25px;
 	position: relative;
 	vertical-align: baseline;
-}
-
-.aside {
-	margin-top: 50px;
 }
 
 .card {
