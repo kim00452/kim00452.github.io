@@ -1,1 +1,0 @@
-        var table = document.createElement("table");
